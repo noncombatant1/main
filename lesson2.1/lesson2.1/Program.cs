@@ -15,7 +15,7 @@ namespace lesson2._1
             Console.WriteLine("Введите минимальную температуру за сутки");
             double mintemperature = Convert.ToDouble(Console.ReadLine());
 
-            Console.WriteLine("Средняя температура = " + ((maxtemperature + mintemperature) / 2));
+            Console.WriteLine("Средняя температура равна " + ((maxtemperature + mintemperature) / 2));
 
             Console.ReadKey();
         }
